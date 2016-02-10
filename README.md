@@ -1,4 +1,6 @@
 # django-unique-upload
+[![Build Status](https://travis-ci.org/agconti/django-unique-upload.svg?branch=master)](https://travis-ci.org/agconti/django-unique-upload)
+
 A django utility that creates unique file names for uploaded files via uuids.
 
 ## Why
