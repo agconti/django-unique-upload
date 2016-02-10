@@ -25,3 +25,9 @@ class MyModel(modles.Model):
     file = models.FileField(upload_to=unique_upload)
 ```
 Now if we give save `MyModel` with two new files,  `cool-image.jpg` and `really-important.pdf`, Django will save the files to S3 with the values: `3fce8b21-5b0d-4f27-9d99-2bb202f211c7.jpg` and `50a44439-843e-4049-949d-b54cfcddff19.pdf`.
+
+## Tests
+Run the devepment tests with:
+```bash
+python -m unittest discover test
+```
