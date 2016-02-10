@@ -1,2 +1,2 @@
-__version__ = '0.1.0'
-from unique_upload import unique_upload
+__version__ = '0.2.0'
+from .unique_upload import unique_upload
